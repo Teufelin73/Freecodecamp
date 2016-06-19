@@ -1,0 +1,47 @@
+
+body {
+    background-color: DarkCyan;    
+    margin-top: 24px;
+}
+
+h1 {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 18pt;
+        text-align: center;
+        color: HoneyDew;
+}
+h2 {
+	font-family: Geneva ,Arial, Helvetica, sans-serif;
+	font-size: 16pt;
+        text-align: center;
+        color: HoneyDew;
+}
+
+#registration {
+        text-align: center;
+        position: relative;
+        width: 400px;
+        hight: 200px;
+        left: 500px;
+        border: 3px solid #F0FFF0;
+}
+
+input[type=text]{
+        margin: 8px 0px;
+       
+}
+
+input[type=text]:focus {
+          background-color: lightblue;
+          
+}
+
+input[type=submit] {
+          background-color: HoneyDew;
+          color: DarkCyan;
+          margin: 3px 2px;
+          text-align: center;
+          padding: 16px 32px;
+}
+
+
